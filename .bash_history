@@ -94,3 +94,5 @@ git remote -v
 git remote add origin https://github.com/ysmrs/yshunrepo.git
 vim ~/.ssh/config
 ssh -T git@github.com
+git add -A
+git commit -m "chapter5-2"
