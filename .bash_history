@@ -50,3 +50,6 @@ git branch
 git version
 git add 4-1サンプルファイル
 git add Desktop/4-1サンプルファイル
+git add -A
+git commit -m "chapter5-2"
+git push
