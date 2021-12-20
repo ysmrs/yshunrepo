@@ -53,3 +53,44 @@ git add Desktop/4-1サンプルファイル
 git add -A
 git commit -m "chapter5-2"
 git push
+echo "# yshunrepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:ysmrs/yshunrepo.git
+git push -u origin main
+git add -A
+git commit -m "chapter5-2"
+git push
+git push --set-upstream origin main
+echo "# yshunrepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:ysmrs/yshunrepo.git
+git push -u origin main
+git branch
+cd ~/.ssh
+ssh-keygen
+echo "# yshunrepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:ysmrs/yshunrepo.git
+git push -u origin main
+ssh-keygen
+cd ~/.ssh
+ssh-keygen -t rsa -C ihcninuhs@gmail.com
+ls ~/.ssh/
+less ~/.ssh/id_rsa.pub
+git add -A
+git commit -m "chapter5-2"
+git push
+git push --set-upstream origin main
+git remote -v
+git remote add origin https://github.com/ysmrs/yshunrepo.git
+vim ~/.ssh/config
+ssh -T git@github.com
